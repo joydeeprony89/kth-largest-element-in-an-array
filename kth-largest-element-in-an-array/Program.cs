@@ -8,10 +8,10 @@ namespace kth_largest_element_in_an_array
         {
             int[] arr = { 0, 1 , -1, -2, 9 };
             int k = 5;
-            Console.Write("K'th smallest element is " + FindKthLargest(arr, k));
+            Console.Write("K'th smallest element is " + FindKthSmallest(arr, k));
         }
 
-        static int FindKthLargest(int[] nums, int k)
+        static int FindKthSmallest(int[] nums, int k)
         {
             //k = nums.Length - k;
             int l = 0, r = nums.Length - 1;
